@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>nous contacté</title>
+		<title>Plumbus Corporation - Nous contacter</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<!-- Lien vers le favicon !-->
 		<link rel="icon" type="image/png" href="images/favicon.png" />
@@ -12,18 +12,18 @@
 	<body >
 		<form action="">
 			<div>
-				<label for="surname">*sexe:</label>
-				<input type="radio" name="gender" value="homme" required=""> homme<a>
-				<input type="radio" name="gender" value="femme" required=""> femme<a>
+				<label for="gender">*Sexe: </label>
+				<input type="radio" name="gender" value="male" required=""> Homme<a>
+				<input type="radio" name="gender" value="female" required=""> Femme<a>
 			</div>
 			<div>
-					<label for="fname">*prénom:</label>
+					<label for="firstname">*Prénom: </label>
 				   <input type="text" name="firstname" required=""><br>
-					<label for="text">*nom:</label>
+					<label for="lastname">*Nom:</label>
 					<input type="text" name="lastname" required=""><br>
 			</div>
 			<div >
-									<label for="pays" class="addon-item">* Votre pays</label>
+									<label for="pays" class="addon-item">*Votre pays: </label>
 									<select class="addon-field" id="pays" name="state" required="">
 										<option value="" selected="selected">Sélectionnez</option>
 										<option value="France">France </option>
@@ -258,16 +258,16 @@
 									</select>
 								</div>
 								<div>
-									<label for="date" class="addon-item">*date de naissance</label>
+									<label for="bday" class="addon-item">*Date de naissance: </label>
 									<input type="date" name="bday" required="">								
 								</div>
 								<div>
-									<label for="email" class="addon-item">*email</label>
-									<input type="email" name="usremail" required="">
+									<label for="usermail" class="addon-item">*Email: </label>
+									<input type="email" name="usermail" required="">
 								</div>
 								<div>
 								<br>
-								  <label for="textarea" class="addon-item">coment:</label><br>
+								  <label for="textarea" class="addon-item">Commentaire:</label><br>
 									<textarea name="textarea" rows="10" cols="50" required="">Saisir un texte ici.</textarea>
 								</div>
 			<input type="submit" value="Submit">
